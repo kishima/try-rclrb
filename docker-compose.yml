@@ -1,0 +1,8 @@
+services:
+  ros-nodes:
+    build:
+      context: ./services/ruby-ros
+    network_mode: host
+    volumes:
+      - ./services/ruby-ros/pubsub_sample.sh:/app/pubsub_sample.sh
+    command: /app/pubsub_sample.sh
