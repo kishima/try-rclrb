@@ -1,6 +1,6 @@
 # try rclrb
 
-sample code to learn rclrb.
+sample code to learn [rclrb](https://gitlab.com/rosrb/rclrb).
 
 
 run sample Ruby nodes.
